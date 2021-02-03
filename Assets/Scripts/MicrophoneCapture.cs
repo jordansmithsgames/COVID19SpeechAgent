@@ -140,7 +140,7 @@ public class MicrophoneCapture : MonoBehaviour
                     StopListening();
                 }
 
-                GUI.Label(new Rect(Screen.width / 4 - 100, Screen.height / 4 + 25, 200, 50), "Recording in progress...");
+                GUI.Label(new Rect(Screen.width / 4 - 40, Screen.height / 3 + 35, 100, 100), "Recording in progress...");
             }
         }
         else // No microphone
